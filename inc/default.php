@@ -18,7 +18,7 @@ add_action('after_setup_theme', 'my_theme_setup');
 // Except to 40 Word
 
 function wp_excerpt_more($more){
-  return '<br> <br> <a class="redmore" href="'.get_permalink( $post->ID) . '">' . 'Read More' . '</a>';
+  return '<br> <br> <a class="redmore" href="'.get_permalink( ) . '">' . 'Read More' . '</a>';
 }
 add_filter('excerpt_more', 'wp_excerpt_more');
 

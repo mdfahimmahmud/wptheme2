@@ -15,7 +15,7 @@
               _e('No post found');
             endif; ?>
           <div id="page_nav">
-            <?php if ('wpp_pagenav') {wpp_pagenav(); } else{ ?>
+            <?php if ('wp_pagenav') {wp_pagenav(); } else{ ?>
                 <?php next_posts_link(); ?>
                 <?php previous_posts_link(); ?>
             <?php } ?>
